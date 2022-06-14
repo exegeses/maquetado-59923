@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+}
+
+/* agrupamiento */
+#verde, #naranja, #celeste{
+    width: 250px;
+    height: 150px;
+}
+
+#verde{
+    background-color: #a8fbc4;
+}
+#naranja{
+    background-color: #fbdba8;
+    padding: 50px;
+}
+#celeste{
+    background-color: #a8fbf4;
+    margin: 25px;
+}
