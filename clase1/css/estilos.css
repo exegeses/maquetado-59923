@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1100px;
+    margin: auto;
+}
+header{
+    height: 80px;
+    background-color: #FFAB4A;
+}
+main{
+    height: 600px;
+}
+footer{
+    height: 160px;
+    background-color: #22170A;
+}
