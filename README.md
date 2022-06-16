@@ -4,7 +4,7 @@
 
 # Maquetador web: HTML 5 + CSS
 > Curso de Maquetado Web |   
-> Martes y Jueves 10hs a 12hs (Arg) |  
+> Martes y Jueves 15hs a 17hs (Arg) |  
 > Código: 59923 |  
 > sensei: Marcos Pinardi |
 
