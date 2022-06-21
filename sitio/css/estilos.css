@@ -52,4 +52,29 @@ main{
 footer{
     height: 150px;
     background-color: #262626;
+    display: flex;
+
+    /* para que quede pagado debajo */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
+    #bottom{
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+        #bottom a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        #bottom img{
+            width: 32px;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        #social img{
+            width: 16px;
+        }
+
