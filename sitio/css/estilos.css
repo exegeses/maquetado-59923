@@ -69,6 +69,49 @@ main{
         #fotoIndex img{
             margin: 48px 0px 54px 96px;
         }
+        #descarga{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #descarga a{
+            padding: 8px 40px;
+            border: 1px solid #ffffff;
+            border-radius: 32px;
+            width: 210px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            color: #ffffff;
+            transition: 300ms;
+        }
+        #descarga a:hover{
+            background-color: #fff;
+            color: rgb(215,143,183);
+        }
+        .fa-brands{
+            font-style: normal;
+        }
+        .fa-apple{
+            font-size: 20px;
+        }
+
+    #index{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+
+        #index article{
+            text-align: center;
+            width: 280px;
+        }
+
+        #index img{
+            width: 72px;
+        }
+        #index h2{
+            margin: 24px 0px;
+        }
 
 
 footer{
