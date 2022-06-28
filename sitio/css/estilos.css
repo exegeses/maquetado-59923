@@ -46,12 +46,20 @@ main{
     min-height: 600px;
     width: 1100px;
     margin: auto;
+    padding-bottom: 150px;
 }
     h1{
         font-size: 32px;
         font-weight: 600;
-        /*margin-bottom: 26px;*/
+        color: #fff;
+        width: 1100px;
+        margin: 48px auto 0px auto;
     }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
 /* contenido sección index */
     #fotoIndex{
         width: 1100px;
@@ -112,6 +120,37 @@ main{
         #index h2{
             margin: 24px 0px;
         }
+
+/* sección Nuestra App */
+    #app{
+        display: flex;
+
+        /* alinear en vertical */
+        align-items: center;
+    }
+    #app img{
+        margin: 40px 64px 40px 0px;
+    }
+    #app p{
+        margin-top: 16px;
+    }
+
+    #caracteristicas{
+        display: flex;
+        flex-wrap: wrap; /* respeta los anchos  */
+        justify-content: space-between;
+    }
+    #caracteristicas article{
+        width: 326px;
+        margin-bottom: 40px;
+    }
+    #caracteristicas img{
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    #caracteristicas p{
+        margin-top: 16px;
+    }
 
 
 footer{

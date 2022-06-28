@@ -1,0 +1,11 @@
+main{
+    width: 600px;
+    margin: auto;
+    height: 250px;
+    background-color: #7bd6f9;
+}
+article{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(62, 62, 62, .3);
+}
