@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+main{
+    width: 960px;
+    padding: 32px;
+    margin: auto;
+    background-color: #d8d8d8;
+}
+#linea, #bloque, #lineaBloque {
+    background-color: #fff;
+    padding: 32px;
+}
+    #linea a{
+        /* los elementos de línea no aceptan ancho */
+        width: 200px;
+        height: 50px;
+
+        margin: 24px;
+    }
+    #bloque p{
+        background-color: #9af5bf;
+        /* los elementos de bloque SI aceptan ancho */
+        width: 300px;
+        height: 60px;
+
+        margin: 24px;
+    }
+    #lineaBloque a{
+        background-color: #9af5bf;
+        /* con inline-blok, siguen presentandose en línea */
+        display: inline-block;
+
+        width: 160px;
+        height: 60px;
+
+        margin: 24px;
+    }

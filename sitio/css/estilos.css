@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+hetml, body{
+    overflow-x: hidden;
+}
 body{
     font-family: Raleway, sans-serif;
     font-weight: 300;
@@ -151,6 +154,61 @@ main{
     #caracteristicas p{
         margin-top: 16px;
     }
+
+/* contenido sección compar */
+    #planes{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+    }
+        #planes article{
+            width: 326px;
+            padding: 32px 0px;
+            text-align: center;
+            border-radius: 12px;
+            /*box-shadow: ejeX ejeY blur color;*/
+            box-shadow: 0px 0px 8px #d8d8d8;
+        }
+        #planes li{
+            list-style: none;
+            line-height: 32px;
+        }
+        #planes div{
+            background-color: #f8f8f8;
+            margin: 20px 0px;
+            padding: 8px 0px;
+        }
+        #planPersonal, #contratarPersonal{
+            background: rgb(215,143,183);
+            background: linear-gradient(90deg, rgba(215,143,183,1) 0%, rgba(201,185,241,1) 100%);
+            color: #fff !important;
+            border: 1px solid rgb(215,143,183) !important;
+        }
+
+        #planes div b{
+            font-size: 32px;
+            font-weight: 600;
+        }
+        #planes a{
+            text-decoration: none;
+            color: #707070;
+            border: 1px solid #707070;
+            margin: 24px 0px;
+            display: inline-block;
+            width: 150px;
+            padding: 8px 0px;
+            border-radius: 24px;
+        }
+        #planes a:hover{
+            background-color: #262626;
+            color: #fff;
+        }
+        #contratarPersonal:hover{
+            background: linear-gradient(90deg,
+                        rgba(201,185,241,1) 0%,
+                        rgba(215,143,183,1) 100%
+                        );
+        }
 
 
 footer{
