@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hetml, body{
+    overflow-x: hidden;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+main{
+    width: 650px;
+    margin: auto;
+    padding: 60px 0px;
+}
+    input, textarea{
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        background-color: #f8d183;
+        padding: 16px;
+        margin-bottom: 32px;
+        width: 450px;
+        color: #d00;
+        border: 1px solid #bd9659;
+    }
+    textarea{
+        height: 150px;
+    }
+    button{
+        padding: 16px;
+        width: 450px;
+        font-size: 24px;
+        background-image: url(../imgs/btn-bg.jpg);
+    }
