@@ -4,28 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: Raleway, sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #707070;
+    background-color: #323232;
 }
 main{
-    width: 850px;
-    margin: auto;
-    background-color: #c8c8c8;
-    height: 450px;
-}
-#naranja, #verde{
-    width: 250px;
-    height: 120px;
     position: relative;
+    width: 1200px;
+    margin: auto;
 }
-#naranja{
-    background-color: #efc161;
-    top: 60px;
-    left: 120px;
-}
-#verde{
-    background-color: #8cef61;
-}
+
+    h1{
+        position: absolute;
+        top: 130px;
+        color: #fff;
+        background-color: rgba(50, 50, 50, 0.36);
+        padding: 32px;
+        width: 100%;
+    }

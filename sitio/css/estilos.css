@@ -210,6 +210,31 @@ main{
                         );
         }
 
+/* contenido sección nosotros */
+    #nosotros {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 64px;
+    }
+    #nosotros h2{
+        margin-top: 8px;
+    }
+    #nosotros img{
+        width: 245px;
+        filter: grayscale(100%);
+        transition: .3s;
+    }
+    #nosotros img:hover{
+        filter: grayscale(0%);
+    }
+    .nombre{
+        /*color: #fff; */
+        /*background-color: rgba(215,143,183,.4);*/
+        /*position: relative;
+        top: -26px;*/
+    }
+
 
 footer{
     height: 150px;
