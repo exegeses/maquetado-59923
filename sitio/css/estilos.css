@@ -42,7 +42,12 @@ header{
     #logoTop nav a{
         /* margin: 14px; */
         padding: 14px;
-
+    }
+    #logoTop nav a:hover{
+        /*border-bottom: 2px solid #ffffff;*/
+    }
+    #actual{
+        border-bottom: 2px solid rgb(251, 214, 234);
     }
 
 main{
@@ -249,6 +254,11 @@ main{
             padding: 60px;
             background-color: #fff;
             border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #formContacto form{
+            width: 550px;
         }
         #formContacto input,
         #formContacto textarea,
@@ -275,6 +285,25 @@ main{
         }
         #formContacto button:hover{
             background-color: #323232;
+        }
+
+        #formContacto article{
+            width: 250px;
+            height: 316px;
+            background-color: #F4F4F4;
+            border-radius: 12px;
+            text-align: center;
+        }
+        #formContacto article img{
+            width: 72px;
+            padding: 8px;
+            border: 1px solid #323232;
+            border-radius: 100%;
+            margin-top: 12px;
+        }
+        #formContacto article span{
+            display: block;
+            line-height: 32px;
         }
 
 footer{
